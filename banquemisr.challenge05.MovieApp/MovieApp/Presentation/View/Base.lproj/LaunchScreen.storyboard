@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch" translatesAutoresizingMaskIntoConstraints="NO" id="vtF-wJ-O3F">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="movielogo" translatesAutoresizingMaskIntoConstraints="NO" id="tBb-Tj-voJ">
+                                <rect key="frame" x="47" y="295.66666666666669" width="299" height="261.00000000000006"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="tBb-Tj-voJ" firstAttribute="centerY" secondItem="vtF-wJ-O3F" secondAttribute="centerY" id="DR4-1v-P6U"/>
+                            <constraint firstItem="tBb-Tj-voJ" firstAttribute="height" secondItem="vtF-wJ-O3F" secondAttribute="height" multiplier="0.306338" id="OBh-4d-M28"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vtF-wJ-O3F" secondAttribute="trailing" id="UlJ-QD-Ijw"/>
+                            <constraint firstItem="vtF-wJ-O3F" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Vd6-Nh-Nkp"/>
+                            <constraint firstItem="vtF-wJ-O3F" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="lwi-Mi-ZBs"/>
+                            <constraint firstItem="tBb-Tj-voJ" firstAttribute="width" secondItem="vtF-wJ-O3F" secondAttribute="width" multiplier="0.760814" id="obT-cw-32O"/>
+                            <constraint firstAttribute="bottom" secondItem="vtF-wJ-O3F" secondAttribute="bottom" id="uuZ-MI-KRd"/>
+                            <constraint firstItem="tBb-Tj-voJ" firstAttribute="centerX" secondItem="vtF-wJ-O3F" secondAttribute="centerX" id="ybQ-l8-b8m"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launch" width="375" height="812"/>
+        <image name="movielogo" width="697" height="358"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
